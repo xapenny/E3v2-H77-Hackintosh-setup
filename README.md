@@ -33,9 +33,10 @@
 
 - 系统启动
 - 显卡
+- H.264+HEVC硬解码(可看DRM)
 - 无线网卡
 - AppleALC声卡内建
-- USB3.0
+- USB3.0+端口定制
 - CPU/GPU变频
 - HandOff
 - 个人热点
