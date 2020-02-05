@@ -573,7 +573,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<false/>
+			<true/>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
@@ -640,7 +640,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-xcpm slide=1626 shikigva=144</string>
+				<string>-xcpm slide=1626 shikigva=32 dart=0 -args shiki-id=Mac-7BA5B2D9E42DDD94</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -659,6 +659,8 @@
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
+		<true/>
+		<key>LegacyOverwrite</key>
 		<true/>
 		<key>LegacySchema</key>
 		<dict>
@@ -701,7 +703,7 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>MacPro6,1</string>
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
