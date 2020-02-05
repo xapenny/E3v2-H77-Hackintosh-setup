@@ -23,9 +23,9 @@
 |   主板   | MSI ZH77a-G43                                                |
 |   显卡   | AMD(R) RADEON(TM) RX 570 4GB                                 |
 |   声卡   | Realtek ALC892                                               |
-| 有线网卡 | 暂时用不到所以没驱动                                         |
+| 有线网卡 | Realtek RTL8111E PCI Express Gigabit Ethernet                |
 | 无线网卡 | Broadcom BCM94360CD                                          |
-|  显示器  | - DVI: Philips 193E (1440x900)                               |
+|  显示器  | Philips 193E (1440x900)                                      |
 
 ---
 
@@ -70,7 +70,9 @@
 
 - 2020.2.5
 
-> 更新Config.plist
+> 1. 更新Config.plist
+> 2. 驱动有线网卡
+> 3. 更新OpenCore至0.5.5
 
 
 - 2020.1.28
