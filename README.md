@@ -80,6 +80,7 @@
 > 1. 更新Config.plist
 > 2. 驱动有线网卡
 > 3. 更新OpenCore至0.5.5
+> 4. Tools增加最新版OCC，支持OpenCore v0.5.7
 
 
 - 2020.1.28
