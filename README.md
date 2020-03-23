@@ -33,6 +33,7 @@
 
 - 系统启动
 - 显卡
+- Apple Watch解锁
 - H.264+HEVC硬解码(可看DRM)
 - 无线网卡
 - AppleALC声卡内建
@@ -47,16 +48,18 @@
 
 ### 已知问题
 
-1. ~~日常使用中有几率出现冻屏，若无法接受可以将SMBIOS机型改为MacPro6,1。不会出现冻屏，代价是失去硬件解码。~~冻屏太严重了，已经切换为MacPro。失去HEVC硬件解码
-3. 暂时不能睡眠，用屏幕保护代替
+1. ~~日常使用中有几率出现冻屏，若无法接受可以将SMBIOS机型改为MacPro6,1。不会出现冻屏，代价是失去硬件解码。~~已经彻底解决
+3. ~~暂时不能睡眠，用屏幕保护代替~~已经可以睡眠，但是睡眠唤醒后不能用Apple Watch解锁
 
 ---
 
-### CPU变频教程
+### ~~CPU变频教程~~
 
-1. 终端输入`sudo mount -uw / && killall Finder`
-2. 将`IOPlatformPluginFamily.kext`放到`/系统/资源库/Extensions/`下并重建缓存
-3. 重启电脑，用CPU-S可以检测到7档位变频
+已废除，该版本Kext会造成睡眠唤醒死机，已改SSDT变频。经过Cinebench R20测试性能略有提升
+
+~~1. 终端输入`sudo mount -uw / && killall Finder`~~
+~~2. 将`IOPlatformPluginFamily.kext`放到`/系统/资源库/Extensions/`下并重建缓存~~
+~~3. 重启电脑，用CPU-S可以检测到7档位变频~~
 
 ---
 
@@ -67,6 +70,11 @@
 ---
 
 ### 更新日志
+- 2020.3.23
+> 1.更新OpenCore版本到最新0.5.7
+> 2.增加GUI
+> 3.彻底解决冻屏
+> 
 
 - 2020.2.5
 
