@@ -81,16 +81,16 @@
 > 3.添加引导界面壁纸(1440x900)，请自行修改位于/EFI/OC/Icons下的background.png(或background4k.png，取决于你的显示器分辨率)
 
 - 2020.3.23
-> 1.更新OpenCore版本到最新0.5.7
-> 2.增加GUI
-> 3.彻底解决冻屏
-> 
+> 1. 更新OpenCore版本到最新0.5.7
+> 2. 增加GUI
+> 3. 彻底解决冻屏
 
 - 2020.2.5
 
 > 1. 更新Config.plist
 > 2. 驱动有线网卡
 > 3. 更新OpenCore至0.5.5
+> 4. Tools增加最新版OCC，支持OpenCore v0.5.7
 
 
 - 2020.1.28
