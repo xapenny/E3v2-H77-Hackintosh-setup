@@ -3,7 +3,7 @@
 # E3v2 Catalina Hackintosh
 
 - English
-- [简体中文](https://github.com/xapenny/E3v2-Catalina-Hackintosh-setup/README.md)
+- [简体中文](https://github.com/xapenny/E3v2-Catalina-Hackintosh-setup/blob/master/README.md)
 
 ### Opening
 
