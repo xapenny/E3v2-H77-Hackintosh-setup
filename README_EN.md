@@ -27,7 +27,7 @@
 
 ### Hardware Configuration
 
-|     硬件      | 描述                                                         |
+|     Hardware      | Discribtion                                                         |
 | :-----------: | ------------------------------------------------------------ |
 |      CPU      | Intel(R) Xeon(TM) E3-1230 v2 CPU @ 3.30GHz                   |
 |      RAM      | 16 GB 1600 MHz DDR3                                          |
