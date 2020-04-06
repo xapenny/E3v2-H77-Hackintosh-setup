@@ -48,7 +48,7 @@
 - Apple Watch Unlock 
 - H.264 + H.265 + HEVC Hardware video decoding
 - CD/DVD/BD burning
-- Blu-ray Disk
+- Blu-ray Disk playback
 - Wifi/Bluetooth
 - AppleALC Audio card built-in
 - USB3.0 + Customise USB ports
@@ -62,7 +62,7 @@
 
 ### Known Issue
 
-3. Apple Watch Unlock will failed after wake up from sleep/hibernation, I'm working on a fix.
+3. Apple Watch Unlock will fail after wake up from sleep/hibernation, I'm working on a fix.
 
 ---
 
