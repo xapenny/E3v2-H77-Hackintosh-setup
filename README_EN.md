@@ -77,8 +77,8 @@
 - 2020.4.4
 
 > 1. Changed OpenCore to another fork。
-> 2. Add booting Windows without applying anything from OC's kexts/DSDTs/vendor spoof. So you can now get OEM drivers/software(like Lenovo UltraNav and FN shortcuts) work on Windows boot with OpenCore.
-> 3. Add background(1440x900) for the Picker. Ps: You have to ensure that your display resolution equals \EFI\OC\Icons\background.png, or it won't show up. If you're using 4K display, do the same thing to background4k.jpg
+> 2. Add booting Windows without applying anything from OC's kexts/DSDTs/vendor spoof. So you can now get OEM drivers/software(like Lenovo UltraNav and FN shortcuts) working on Windows boot with OpenCore.
+> 3. Add background(1440x900) for the Picker. Ps: You have to ensure that your display resolution matches \EFI\OC\Icons\background.png, or it won't show up. If you're using 4K display, do the same thing to background4k.jpg
 
 - 2020.3.23
 > 1.Update OpenCore to 0.5.7 beta
