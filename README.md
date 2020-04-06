@@ -20,15 +20,15 @@
 
 |   硬件   | 描述                                                         |
 | :------: | ------------------------------------------------------------ |
-|   CPU    | Intel(R) Xeon(TM) E3-1230 v2 CPU @ 3.30GHz                   |
+|   CPU    | 英特尔(R) Xeon(TM) E3-1230 v2 CPU @ 3.30GHz                   |
 |   RAM    | 16 GB 1600 MHz DDR3                                          |
-|   硬盘   | - SATA6G: Samsung SSD 860 EVO mSATA 250GB <br/>- SATA6G: UNIC S100-240 SSD 240GB<br/>- SATA3G: Seagate HDD 500GB x3 |
-|   主板   | MSI ZH77a-G43                                                |
+|   硬盘   | - SATA6G: 三星 SSD 860 EVO mSATA 250GB <br/>- SATA6G: 紫光 S100-240 SSD 240GB<br/>- SATA3G: 希捷 HDD 500GB x3 |
+|   主板   | 微星 ZH77a-G43 (H77芯片组)                                                |
 |   显卡   | AMD(R) RADEON(TM) RX 570 4GB                                 |
-|   声卡   | Realtek ALC892                                               |
-| 有线网卡 | Realtek RTL8111E PCI Express Gigabit Ethernet                |
-| 无线网卡 | Broadcom BCM94360CD                                          |
-|  显示器  | Philips 193E (1440x900)                                      |
+|   声卡   | 瑞昱 ALC892                                               |
+| 有线网卡 | 瑞昱 RTL8111E 千兆以太网                |
+| 无线网卡 | 博通 BCM94360CD 二合一卡                                         |
+|  显示器  | 飞利浦 193E (1440x900)                                      |
 
 ---
 
@@ -38,6 +38,8 @@
 - 显卡
 - Apple Watch解锁
 - H.264+HEVC硬解码(可看DRM)
+- DVD/BD刻录
+- 蓝光光盘播放
 - 无线网卡
 - AppleALC声卡内建
 - USB3.0+端口定制
@@ -51,20 +53,10 @@
 
 ### 已知问题
 
-1. ~~日常使用中有几率出现冻屏，若无法接受可以将SMBIOS机型改为MacPro6,1。不会出现冻屏，代价是失去硬件解码。~~已经彻底解决
-3. ~~暂时不能睡眠，用屏幕保护代替~~已经可以睡眠，但是睡眠唤醒后不能用Apple Watch解锁
+1. 睡眠唤醒后不能用Apple Watch解锁
 
 ---
 
-### ~~CPU变频教程~~
-
-已废除，该版本Kext会造成睡眠唤醒死机，已改SSDT变频。经过Cinebench R20测试性能略有提升
-
-~~1. 终端输入`sudo mount -uw / && killall Finder`~~
-~~2. 将`IOPlatformPluginFamily.kext`放到`/系统/资源库/Extensions/`下并重建缓存~~
-~~3. 重启电脑，用CPU-S可以检测到7档位变频~~
-
----
 
 ### 适用系统
 
