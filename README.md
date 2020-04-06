@@ -76,9 +76,9 @@
 
 - 2020.4.4
 
-> 1.切换OC分支
-> 2.添加Windows引导（OC不会再对Windows作出任何修改，可以正常使用OEM驱动软件，比如TP的热键驱动）
-> 3.添加引导界面壁纸(1440x900)，请自行修改位于/EFI/OC/Icons下的background.png(或background4k.png，取决于你的显示器分辨率)
+> 1. 切换OC分支
+> 2. 添加Windows引导（OC不会再对Windows作出任何修改，可以正常使用OEM驱动软件，比如TP的热键驱动）
+> 3. 添加引导界面壁纸(1440x900)，请自行修改位于/EFI/OC/Icons下的background.png(或background4k.png，取决于你的显示器分辨率)
 
 - 2020.3.23
 > 1. 更新OpenCore版本到最新0.5.7
