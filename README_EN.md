@@ -3,7 +3,7 @@
 # E3v2 Catalina Hackintosh
 
 - English
-- [简体中文](https://github.com/xapenny/E3v2-Catalina-Hackintosh-setup/README.md)
+- [简体中文](https://github.com/xapenny/E3v2-Catalina-Hackintosh-setup/blob/master/README.md)
 
 ### Opening
 
@@ -27,7 +27,7 @@
 
 ### Hardware Configuration
 
-|     硬件      | 描述                                                         |
+|     Hardware      | Discribtion                                                         |
 | :-----------: | ------------------------------------------------------------ |
 |      CPU      | Intel(R) Xeon(TM) E3-1230 v2 CPU @ 3.30GHz                   |
 |      RAM      | 16 GB 1600 MHz DDR3                                          |
@@ -48,7 +48,7 @@
 - Apple Watch Unlock 
 - H.264 + H.265 + HEVC Hardware video decoding
 - CD/DVD/BD burning
-- Blu-ray Disk
+- Blu-ray Disk playback
 - Wifi/Bluetooth
 - AppleALC Audio card built-in
 - USB3.0 + Customise USB ports
@@ -62,7 +62,7 @@
 
 ### Known Issue
 
-3. Apple Watch Unlock will failed after wake up from sleep/hibernation, I'm working on a fix.
+3. Apple Watch Unlock will fail after wake up from sleep/hibernation, I'm working on a fix.
 
 ---
 
@@ -81,9 +81,9 @@
 
 - 2020.4.4
 
-> 1.Changed OpenCore to another fork。
-> 2.Add booting Windows without applying anything from OC's kexts/DSDTs/vendor spoof. So you can now get OEM drivers/software(like Lenovo UltraNav and FN shortcuts) work on Windows boot with OpenCore.
-> 3.Add background(1440x900) for the Picker. Ps: You have to ensure that your display resolution equals \EFI\OC\Icons\background.png, or it won't show up. If you're using 4K display, do the same thing to background4k.jpg
+> 1. Changed OpenCore to another fork。
+> 2. Add booting Windows without applying anything from OC's kexts/DSDTs/vendor spoof. So you can now get OEM drivers/software(like Lenovo UltraNav and FN shortcuts) working on Windows boot with OpenCore.
+> 3. Add background(1440x900) for the Picker. Ps: You have to ensure that your display resolution matches \EFI\OC\Icons\background.png, or it won't show up. If you're using 4K display, do the same thing to background4k.jpg
 
 - 2020.3.23
 > 1.Update OpenCore to 0.5.7 beta
