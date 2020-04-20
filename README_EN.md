@@ -74,6 +74,11 @@
 
 ### Changelog
 
+- 2020.4.20
+
+> 1. Update OpenCore to v0.5.8
+> 2. Update several kexts
+
 - 2020.4.4
 
 > 1.Changed OpenCore to another fork。
