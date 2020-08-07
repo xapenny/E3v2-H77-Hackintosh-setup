@@ -74,6 +74,11 @@
 
 ### Changelog
 
+- 2020.8.7
+
+> 1. Add support for macOS Big Sur
+> 2. Previous versions are now archived! Catalina user can get that on **Catalina** branch, there will be nothing new from now. I will focus on Big Sur branch.
+
 - 2020.4.20
 
 > 1. Update OpenCore to v0.5.8
