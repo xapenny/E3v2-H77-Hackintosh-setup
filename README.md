@@ -1,8 +1,8 @@
 
 
-# E3v2 Catalina Hackintosh
+# E3v2 Big Sur Hackintosh
 
-- [English](https://github.com/xapenny/E3v2-Catalina-Hackintosh-setup/blob/master/README_EN.md)
+- [English](https://github.com/xapenny/E3v2-H77-Hackintosh-setup/blob/master/README_EN.md)
 - 简体中文
 
 ### 前言
